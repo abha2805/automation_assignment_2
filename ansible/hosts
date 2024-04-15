@@ -1,0 +1,11 @@
+[linux]
+linux-70541.canadacentral.cloudapp.azure.com
+linux-70542.canadacentral.cloudapp.azure.com
+linux-70543.canadacentral.cloudapp.azure.com
+
+[os:children]
+linux
+
+[linux:vars]
+ansible_user=abha
+ansible_connection=ssh
